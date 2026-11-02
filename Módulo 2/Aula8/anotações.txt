@@ -1,0 +1,6 @@
+array.length // quantidade de elementos do array
+
+exemplo:
+let frutas = ["Maçã", "Banana", "Uva"]
+
+alert(frutas.length)

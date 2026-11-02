@@ -1,0 +1,83 @@
+O que é uma função?
+Função é um bloco de código que pode ser executado quando você quiser.
+
+pense assim:
+Sem função:
+alert("Olá")
+alert("Olá")
+alert("Olá")
+
+Com função:
+function saudacao(){
+    alert("Olá")
+}
+
+saudacao()
+saudacao()
+saudacao()
+Mesmo resultado.
+Muito mais organizado.
+
+Estrutura básica
+function nomeDaFuncao(){
+
+}
+
+Exemplo:
+function saudacao(){
+    alert("Bem-vindo!")
+}
+saudacao()
+
+Entenda:
+
+function saudacao(){
+
+}
+você CRIA a função.
+
+Aqui:
+
+saudacao()
+você EXECUTA a função.
+
+Funções com parâmetros
+Parâmetro é um valor que a função recebe.
+Exemplo:
+function saudacao(nome){
+    alert("Olá " + nome)
+}
+Executando:
+saudacao("Miguel")
+Resultado:
+Olá Miguel
+
+Mais de um parâmetro
+function soma(a, b){
+    alert(a + b)
+}
+soma(10, 5)
+Resultado:15
+
+return
+Serve para devolver um valor.
+Exemplo:
+function soma(a, b){
+    return a + b
+}
+Agora:
+let resultado = soma(10, 5)
+alert(resultado) 
+
+Diferença IMPORTANTE
+Sem return
+function soma(a, b){
+    alert(a + b)
+}
+Mostra o resultado.
+
+Com return
+function soma(a, b){
+    return a + b
+}
+ENTREGA o resultado para outra variável.

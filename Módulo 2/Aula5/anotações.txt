@@ -1,0 +1,28 @@
+O que é um método?
+Método é uma função que já vem pronta.
+
+Exemplo:
+let frutas = ["Maçã", "Banana"]
+O array ja possui vários métodos.
+
+Método 1 - push()
+Serve para adicionar um item.
+Exemplo:
+let frutas = ["Maçã," "Banana"]
+
+frutas.push("Laranja")
+
+alert(frutas)
+
+Resultado:
+Maçã,Banana,Laranja
+
+Método pop()
+Remove o último item.
+Exemplo:
+
+let frutas = ["Maçã", "Banana", "Laranja"]
+frutas.pop()
+alert(frutas)
+
+Resultado:Maçã, Banana

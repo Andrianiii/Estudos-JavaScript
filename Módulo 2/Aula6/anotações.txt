@@ -1,0 +1,113 @@
+Array inteiro
+let jogos = [
+    "Minecraft",
+    "Forza",
+    "GTA"
+]
+
+alert(jogos)
+
+Resultado:
+
+Minecraft,Forza,GTA
+
+Um item específico
+alert(jogos[1])
+
+Resultado:
+
+Forza
+
+Quantidade de elementos
+jogos.length
+
+Resultado:
+
+3
+
+Criando objetos:
+Objeto
+
+Guarda características de uma coisa.
+
+Exemplo:
+
+let pessoa = {
+    nome: "Miguel",
+    idade: 19,
+    cidade: "São Joaquim da Barra"
+}
+
+Acessando informações
+
+Usamos:
+
+objeto.propriedade
+
+Exemplo:
+
+pessoa.nome
+
+Resultado:
+
+Miguel
+
+Diferença importante
+Array
+let frutas = [
+    "Maçã",
+    "Banana",
+    "Laranja"
+]
+
+Acessa por posição:
+
+frutas[0]
+Objeto
+let pessoa = {
+    nome: "Miguel",
+    idade: 19
+}
+
+Acessa por nome da propriedade:
+
+pessoa.nome
+
+Array
+
+Usa:
+
+array[i]
+
+Porque tem posições.
+
+Exemplo:
+
+frutas[0]
+Objeto
+
+Usa:
+
+objeto.propriedade
+
+Exemplo:
+
+aluno.nome
+Comparação importante
+Array
+let frutas = [
+    "Maçã",
+    "Banana"
+]
+
+Acesso:
+
+frutas[0]
+Objeto
+let aluno = {
+    nome: "Miguel"
+}
+
+Acesso:
+
+aluno.nome

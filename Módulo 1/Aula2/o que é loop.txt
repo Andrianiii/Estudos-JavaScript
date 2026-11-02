@@ -1,0 +1,18 @@
+Loop é uma estrutura que repete uma ação várias vezes.
+
+estrutura do for
+for(inicio; condição; incremento){
+
+}
+
+exemplo:
+for(let i = 1; i <= 10; i++){
+    console.log(i)
+}
+
+entendendo
+let i = 1 Começa em 1.
+
+i <= 10 Repete até 10.
+
+i++ Aumenta 1 a cada volta.

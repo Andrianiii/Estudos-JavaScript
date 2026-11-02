@@ -1,0 +1,63 @@
+O que é um Array?
+Array é uma variavel que guarda varios valores.
+
+Exemplo:
+Sem array:
+
+let aluno1 = "Miguel"
+let aluno2 = "João"
+let aluno3 = "Maria"
+
+Com array:
+
+let alunos = ["Miguel", "João", "Maria"]
+
+Criando um Array
+let frutas = ["Maçã", "Banana", "Laranja"]
+
+Como acessar um item?
+let frutas = ["Maçã", "Banana", "Laranja"]
+alert(frutas[0])
+------------------------
+Resultado: Maçã 
+
+MUITO IMPORTANTE
+
+Arrays começam no:
+
+0
+
+e não no 1.
+
+Posição	Valor
+0	Maçã
+1	Banana
+2	Laranja.
+
+Quantidade de itens
+frutas.lenght
+
+Exemplo:
+let frutas = ["Maçã", "Banana", "Laranja"]
+alert(frutas.lenght)
+------------------------
+Resultado: 3.
+
+Voce pode juntar Array e For
+
+Exemplo:
+let frutas = ["Maçã", "Banana", "Laranja"]
+for(let i = 0; i < frutas.length; i++){
+    console.log(frutas[i])
+}
+Resultado:  Maçã
+            Banana
+            Laranja
+
+Quando usamos:
+array[i]
+estamos acessando a posição atual do loop.
+Exemplo:
+frutas[i]
+materiais[i]
+jogos[i]
