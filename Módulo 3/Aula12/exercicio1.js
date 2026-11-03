@@ -1,9 +1,36 @@
-const nota = verificarNota(7)
+const botao = document.getElementById("botao")
 
 function verificarNota(nota){
-    if (nota >=7) {
-        return "Aprovado"
-    } else{
-        return "reprovado"
+
+    
+    if (nota >= 5){
+        return "aprovado"
+    } else {
+       return "reprovado"
     }
+
 }
+
+botao.addEventListener("click", function(){
+
+    const nota = parseInt(document.getElementById("nota").value)
+
+    let resultado = document.getElementById("resultado")
+
+    let situacao = verificarNota(nota)
+
+    resultado.textContent = situacao
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
